@@ -29,7 +29,7 @@ class CustomTextFormFiled extends StatelessWidget {
               focusedBorder:
                   OutlineInputBorder(borderRadius: BorderRadius.circular(20)),
               errorBorder:
-                  OutlineInputBorder(borderRadius: BorderRadius.circular(20)),
+                  OutlineInputBorder(borderRadius: BorderRadius.horizontal()),
               focusedErrorBorder:
                   OutlineInputBorder(borderRadius: BorderRadius.circular(20))),
         )
