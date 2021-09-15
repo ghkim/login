@@ -21,7 +21,7 @@ class CustomForm extends StatelessWidget {
             ),
             TextButton(onPressed: () {
               if (_formKey.currentState!.validate()) {
-                Navigator.pushNamed(context, "home");
+                Navigator.pushNamed(context, "/home");
               }
             }, child: Text("login"))
           ],
